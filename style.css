@@ -1,0 +1,106 @@
+.hero-part{
+    background-image: url(images/hero.jpg);
+    height: 650px;
+    width: 100%;
+    padding-top: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.margin-top{
+    margin-top:100px;
+}
+/* style of site part */
+.digital-margin-top{
+    margin-top: 120px;
+}
+.icon{
+    padding-top: 20px;
+    transition: transform .5s ease-in-out;
+}
+.card:hover .icon{
+    transform: translateY(-20px); 
+}
+
+/* style of digital part */
+.info-part{
+    position:absolute;
+    bottom: -17%;
+    left: 30%;
+    visibility: hidden;
+}
+.card:hover .imgages{
+   transform: translateY(-70px);
+   transition: transform 2s;
+}
+.card:hover .info-part{
+    visibility: visible;
+    transform: translateY(-70px);
+    transition: transform 2s;
+}
+/* style for flexible part  */
+.flexible:hover .icon{
+    transform: translateY(-20px);
+    transition: transform .5s ease-in-out;
+}
+.background-color{
+    background: #f8f8f8;
+}
+/* style for creative part */
+.icon-details{
+    display: none;
+    top: 5px;
+    right: 25px;
+}
+.cr-info{
+    display: none;
+    bottom: 0;
+    left: 25px;
+    color: wheat;
+}
+.creative:hover .cr-info{
+    display: block;
+    color: rgb(255, 251, 0);
+}
+.creative:hover .icon-details{
+    display: block;
+}
+.creative:hover img{
+    opacity: .9;
+    transform: scale(1.1);
+    transition: transform 2s ease-in-out ;
+}
+/* style for pricing part */
+.price-part{
+    background-image: url(images/d-hero.jpg);
+    width: 100%;
+    height: 580px;
+    padding-top: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.price{
+  overflow: hidden;
+}
+.price:hover{
+    transform: scaleY(1.1);
+    transition: transform 2s ease-in-out;
+}
+.pp{
+    top: -100px;
+}
+/* style of article part */
+.article-img:hover img{
+    transform: translateY(-10px);
+    transition: transform 1s ease-in-out;
+}
+.bg-color{
+background: black;
+}
